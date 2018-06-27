@@ -3,25 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.japan.camp;
+package org.japanese.camp;
 
 /**
  *
  * @author guest1Day
  */
 public class Human {
+String name="";
+int age=0;
+
+public void setHuman(String n,int a){
+    this.name=n;
+    this.age=a;
     
-    public String name = null;
-    public int age = 0;
     
-     public void setHuman(String name, int suji) {
-        this.name = name;
-        this.age = suji;
-    }
 }
+}        
 class Teacher extends Human {
+    
+   
     public void kougi() {
-        String msg = "講師の" + this.name + "です。講義を始めます。";
+        String msg = "静岡では" + this.name + "が、有名です。";
         System.out.print(msg);
     }
 }
