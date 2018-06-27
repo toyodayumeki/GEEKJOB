@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package time1;
+package time2;
 import java.util.Calendar;
 /**
  *
  * @author guest1Day
  */
-public class Time1 {
+public class Time2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+ 
         Calendar c = Calendar.getInstance();
         
         c.set(1998,5,21,1,23,45);
@@ -29,3 +30,5 @@ public class Time1 {
     }
     
 }
+   
+    
