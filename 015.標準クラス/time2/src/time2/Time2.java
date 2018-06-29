@@ -20,7 +20,7 @@ public class Time2 {
         Calendar c = Calendar.getInstance();
         
         c.set(1998,5,21,1,23,45);
-        System.out.print(c.get(Calendar.YEAR)+"年");
+    System.out.print(c.get(Calendar.YEAR)+"年");
         System.out.print(c.get(Calendar.MONTH)+"月");
         System.out.print(c.get(Calendar.DAY_OF_MONTH)+"日");
         System.out.print(c.get(Calendar.HOUR_OF_DAY)+"時");
