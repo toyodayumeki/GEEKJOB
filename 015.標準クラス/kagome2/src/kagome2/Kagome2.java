@@ -16,9 +16,8 @@ public class Kagome2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String be="お腹がすいた";
-        System.out.print(be);
-        
+        String adress ="vd47@docomo.ne.jp";
+        System.out.print(adress.substring(4));
         
         
     }
